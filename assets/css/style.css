@@ -1,69 +1,58 @@
 body {
-    background-color: aliceblue;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( 259deg,  rgba(222,95,95,0.1) -5%, rgba(53,88,218,0.1) 133.7% );
     font-family: 'Lato', sans-serif;
 }
 
-.col-md-4 {
+/* .col-md-4 {
     border-style: solid;
     border-width: .5px;
     background-color: azure;
-}
-
-.card-img-top {
-    padding-top: 10px;
-}
-
-/* .navbar {
-    background-color: white;
-    color: black;
 } */
 
-.nav-item {
-    color: white;
-}
-/* .nav-container  {
-    width: 960px;
-    margin: 0 auto; 
+.card-deck {
+    border-style: solid;
+    border-width: .5px;
+    background: white;
+    margin: 20px 10px
 }
 
-#logo  {
-    height: 100%;
-    padding: 20px;
-    margin: 0 auto;
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    background: #4aaaa5;
+.portfolio-card {
+    margin-top: 20px;
+}
+
+.portfolio-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background: linear-gradient( 259deg,  rgba(222,95,95,1) -5%, rgba(53,88,218,1) 133.7% );
     color: white;
-    text-align: center;
+}
+
+/* change the link color */
+.navbar .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.747);
+}
+/* change the color of active or hovered links */
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:focus .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+#bioimage {
     float: left;
-}
-nav ul  {
-    margin: 0px;
-    padding: 30px 0px 0 0;
-    list-style: none;
-    float: right;
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 16px;
+    padding-right: 10px;
 }
 
-nav li  {
-    display: inline-block;
-    margin-left: 70px;
+.page-content {
+    border:solid 1px rgb(201, 201, 201);
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;;
 }
-
-
-.nav-item  {
-    padding: 10px;
-}
-nav a  {
-    color: #666666;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 5px;
-}
-
-a:hover  {
-    color: orange;
-} */
