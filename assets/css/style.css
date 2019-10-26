@@ -25,7 +25,7 @@ body {
 
 .portfolio-body {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .navbar {
@@ -49,10 +49,25 @@ body {
     padding-right: 10px;
 }
 
-.page-content {
+.page-content, .contact-body {
     border:solid 1px rgb(201, 201, 201);
     padding: 15px 25px;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color: white;;
+    background-color: white;
+}
+
+textarea {
+    resize: none;
+ }
+
+ footer {
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient( 259deg,  rgba(160,92,142,1) -5%, rgba(126,91,166,1) 133.7% );
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
